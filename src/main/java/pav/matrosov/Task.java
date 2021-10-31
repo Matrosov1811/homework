@@ -36,5 +36,6 @@ public class Task {
                 System.out.println("Вы ввели некорректный оператор");
                 break;
         }
+        s.close();
     }
 }
